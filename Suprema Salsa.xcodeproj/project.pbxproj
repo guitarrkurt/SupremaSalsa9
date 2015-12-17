@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A1F2AD11BEFEC9A00B88729 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1F2AD01BEFEC9A00B88729 /* AppDelegate.swift */; };
+		4A1F2AD61BEFEC9A00B88729 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A1F2AD41BEFEC9A00B88729 /* Main.storyboard */; };
+		4A1F2AD81BEFEC9A00B88729 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A1F2AD71BEFEC9A00B88729 /* Assets.xcassets */; };
+		4A1F2ADB1BEFEC9A00B88729 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A1F2AD91BEFEC9A00B88729 /* LaunchScreen.storyboard */; };
+		4A4D43201BEFFB750021379F /* SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4D431F1BEFFB750021379F /* SideMenu.swift */; };
+		6165A0DE1BEFEF3600D818A9 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6165A0DD1BEFEF3600D818A9 /* SWRevealViewController.m */; };
+		6165A0E21BEFF6BF00D818A9 /* ComprasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6165A0E11BEFF6BF00D818A9 /* ComprasViewController.swift */; };
+		6165A0E41BEFF6D600D818A9 /* CuponesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6165A0E31BEFF6D600D818A9 /* CuponesViewController.swift */; };
+		6165A0E61BEFF6EC00D818A9 /* UbicacionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6165A0E51BEFF6EC00D818A9 /* UbicacionViewController.swift */; };
+		6165A0E81BEFF6F700D818A9 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6165A0E71BEFF6F700D818A9 /* SettingsViewController.swift */; };
+		6165A0EA1BF0086A00D818A9 /* CuentaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6165A0E91BF0086A00D818A9 /* CuentaViewController.swift */; };
+		6165A0EE1BF00B5D00D818A9 /* CartaCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6165A0ED1BF00B5D00D818A9 /* CartaCollectionViewCell.swift */; };
+		6165A12E1BF015CC00D818A9 /* aguaHorchata.png in Resources */ = {isa = PBXBuildFile; fileRef = 6165A11A1BF015CC00D818A9 /* aguaHorchata.png */; };
+		6165A12F1BF015CC00D818A9 /* aguaJamaica.png in Resources */ = {isa = PBXBuildFile; fileRef = 6165A11B1BF015CC00D818A9 /* aguaJamaica.png */; };
+		6165A1301BF015CC00D818A9 /* aguasimple.png in Resources */ = {isa = PBXBuildFile; fileRef = 6165A11C1BF015CC00D818A9 /* aguasimple.png */; };
+		6165A1311BF015CC00D818A9 /* arabeKilo.png in Resources */ = {isa = PBXBuildFile; fileRef = 6165A11D1BF015CC00D818A9 /* arabeKilo.png */; };
+		6165A1321BF015CC00D818A9 /* arrachera.png in Resources */ = {isa = PBXBuildFile; fileRef = 6165A11E1BF015CC00D818A9 /* arrachera.png */; };
+		6165A1331BF015CC00D818A9 /* burrito.png in Resources */ = {isa = PBXBuildFile; fileRef = 6165A11F1BF015CC00D818A9 /* burrito.png */; };
+		6165A1341BF015CC00D818A9 /* carnepastormenu.png in Resources */ = {isa = PBXBuildFile; fileRef = 6165A1201BF015CC00D818A9 /* carnepastormenu.png */; };
+		6165A1351BF015CC00D818A9 /* cebollitas.png in Resources */ = {isa = PBXBuildFile; fileRef = 6165A1211BF015CC00D818A9 /* cebollitas.png */; };
+		6165A1361BF015CC00D818A9 /* chalupas.png in Resources */ = {isa = PBXBuildFile; fileRef = 6165A1221BF015CC00D818A9 /* chalupas.png */; };
+		6165A1371BF015CC00D818A9 /* Chistorra.png in Resources */ = {isa = PBXBuildFile; fileRef = 6165A1231BF015CC00D818A9 /* Chistorra.png */; };
+		6165A1381BF015CC00D818A9 /* cincoTacosPastor.png in Resources */ = {isa = PBXBuildFile; fileRef = 6165A1241BF015CC00D818A9 /* cincoTacosPastor.png */; };
+		6165A1391BF015CC00D818A9 /* cochinita2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6165A1251BF015CC00D818A9 /* cochinita2.png */; };
+		6165A13A1BF015CC00D818A9 /* costillas.png in Resources */ = {isa = PBXBuildFile; fileRef = 6165A1261BF015CC00D818A9 /* costillas.png */; };
+		6165A13B1BF015CC00D818A9 /* frijoles.png in Resources */ = {isa = PBXBuildFile; fileRef = 6165A1271BF015CC00D818A9 /* frijoles.png */; };
+		6165A13C1BF015CC00D818A9 /* gringa.png in Resources */ = {isa = PBXBuildFile; fileRef = 6165A1281BF015CC00D818A9 /* gringa.png */; };
+		6165A13D1BF015CC00D818A9 /* sincronizada.png in Resources */ = {isa = PBXBuildFile; fileRef = 6165A1291BF015CC00D818A9 /* sincronizada.png */; };
+		6165A13E1BF015CC00D818A9 /* sirlon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6165A12A1BF015CC00D818A9 /* sirlon.png */; };
+		6165A13F1BF015CC00D818A9 /* taco arabe.png in Resources */ = {isa = PBXBuildFile; fileRef = 6165A12B1BF015CC00D818A9 /* taco arabe.png */; };
+		6165A1401BF015CC00D818A9 /* tacobistec.png in Resources */ = {isa = PBXBuildFile; fileRef = 6165A12C1BF015CC00D818A9 /* tacobistec.png */; };
+		6165A1411BF015CC00D818A9 /* unTacoPastor.png in Resources */ = {isa = PBXBuildFile; fileRef = 6165A12D1BF015CC00D818A9 /* unTacoPastor.png */; };
+		61899D491C15582D002DE810 /* CarritoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61899D481C15582D002DE810 /* CarritoCollectionViewCell.swift */; };
+		61899D991C156A6E002DE810 /* arrow_carrito_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 61899D941C156A6E002DE810 /* arrow_carrito_white.png */; };
+		61899D9A1C156A6E002DE810 /* bookmark_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 61899D951C156A6E002DE810 /* bookmark_white.png */; };
+		61899D9B1C156A6E002DE810 /* cheese_icon_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 61899D961C156A6E002DE810 /* cheese_icon_white.png */; };
+		61899D9C1C156A6E002DE810 /* drink_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 61899D971C156A6E002DE810 /* drink_white.png */; };
+		61899D9D1C156A6E002DE810 /* favorite_icon_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 61899D981C156A6E002DE810 /* favorite_icon_white.png */; };
+		61899D9F1C15707D002DE810 /* madera.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 61899D9E1C15707D002DE810 /* madera.jpg */; };
+		61899DA11C1571CA002DE810 /* carbon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 61899DA01C1571CA002DE810 /* carbon.jpg */; };
+		61899DA31C157235002DE810 /* carbon2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 61899DA21C157235002DE810 /* carbon2.jpg */; };
+		61899DA51C157383002DE810 /* tronco.png in Resources */ = {isa = PBXBuildFile; fileRef = 61899DA41C157383002DE810 /* tronco.png */; };
+		61899DA71C157424002DE810 /* tronco2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 61899DA61C157424002DE810 /* tronco2.jpg */; };
+		61899DA91C157492002DE810 /* tronco3.png in Resources */ = {isa = PBXBuildFile; fileRef = 61899DA81C157492002DE810 /* tronco3.png */; };
+		61899DAB1C157557002DE810 /* tronco4.png in Resources */ = {isa = PBXBuildFile; fileRef = 61899DAA1C157557002DE810 /* tronco4.png */; };
+		61899DAD1C157738002DE810 /* cedro.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 61899DAC1C157738002DE810 /* cedro.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4A1F2ACD1BEFEC9A00B88729 /* Suprema Salsa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Suprema Salsa.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A1F2AD01BEFEC9A00B88729 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4A1F2AD51BEFEC9A00B88729 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4A1F2AD71BEFEC9A00B88729 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4A1F2ADA1BEFEC9A00B88729 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4A1F2ADC1BEFEC9A00B88729 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A4D431F1BEFFB750021379F /* SideMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenu.swift; sourceTree = "<group>"; };
+		6165A0DB1BEFEF3500D818A9 /* Suprema Salsa-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Suprema Salsa-Bridging-Header.h"; sourceTree = "<group>"; };
+		6165A0DC1BEFEF3600D818A9 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		6165A0DD1BEFEF3600D818A9 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		6165A0E11BEFF6BF00D818A9 /* ComprasViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComprasViewController.swift; sourceTree = "<group>"; };
+		6165A0E31BEFF6D600D818A9 /* CuponesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CuponesViewController.swift; sourceTree = "<group>"; };
+		6165A0E51BEFF6EC00D818A9 /* UbicacionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UbicacionViewController.swift; sourceTree = "<group>"; };
+		6165A0E71BEFF6F700D818A9 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		6165A0E91BF0086A00D818A9 /* CuentaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CuentaViewController.swift; sourceTree = "<group>"; };
+		6165A0ED1BF00B5D00D818A9 /* CartaCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartaCollectionViewCell.swift; sourceTree = "<group>"; };
+		6165A11A1BF015CC00D818A9 /* aguaHorchata.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aguaHorchata.png; sourceTree = "<group>"; };
+		6165A11B1BF015CC00D818A9 /* aguaJamaica.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aguaJamaica.png; sourceTree = "<group>"; };
+		6165A11C1BF015CC00D818A9 /* aguasimple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aguasimple.png; sourceTree = "<group>"; };
+		6165A11D1BF015CC00D818A9 /* arabeKilo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arabeKilo.png; sourceTree = "<group>"; };
+		6165A11E1BF015CC00D818A9 /* arrachera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrachera.png; sourceTree = "<group>"; };
+		6165A11F1BF015CC00D818A9 /* burrito.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = burrito.png; sourceTree = "<group>"; };
+		6165A1201BF015CC00D818A9 /* carnepastormenu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = carnepastormenu.png; sourceTree = "<group>"; };
+		6165A1211BF015CC00D818A9 /* cebollitas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cebollitas.png; sourceTree = "<group>"; };
+		6165A1221BF015CC00D818A9 /* chalupas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chalupas.png; sourceTree = "<group>"; };
+		6165A1231BF015CC00D818A9 /* Chistorra.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Chistorra.png; sourceTree = "<group>"; };
+		6165A1241BF015CC00D818A9 /* cincoTacosPastor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cincoTacosPastor.png; sourceTree = "<group>"; };
+		6165A1251BF015CC00D818A9 /* cochinita2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cochinita2.png; sourceTree = "<group>"; };
+		6165A1261BF015CC00D818A9 /* costillas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = costillas.png; sourceTree = "<group>"; };
+		6165A1271BF015CC00D818A9 /* frijoles.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frijoles.png; sourceTree = "<group>"; };
+		6165A1281BF015CC00D818A9 /* gringa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gringa.png; sourceTree = "<group>"; };
+		6165A1291BF015CC00D818A9 /* sincronizada.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sincronizada.png; sourceTree = "<group>"; };
+		6165A12A1BF015CC00D818A9 /* sirlon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sirlon.png; sourceTree = "<group>"; };
+		6165A12B1BF015CC00D818A9 /* taco arabe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "taco arabe.png"; sourceTree = "<group>"; };
+		6165A12C1BF015CC00D818A9 /* tacobistec.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tacobistec.png; sourceTree = "<group>"; };
+		6165A12D1BF015CC00D818A9 /* unTacoPastor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unTacoPastor.png; sourceTree = "<group>"; };
+		61899D481C15582D002DE810 /* CarritoCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarritoCollectionViewCell.swift; sourceTree = "<group>"; };
+		61899D941C156A6E002DE810 /* arrow_carrito_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow_carrito_white.png; sourceTree = "<group>"; };
+		61899D951C156A6E002DE810 /* bookmark_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bookmark_white.png; sourceTree = "<group>"; };
+		61899D961C156A6E002DE810 /* cheese_icon_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cheese_icon_white.png; sourceTree = "<group>"; };
+		61899D971C156A6E002DE810 /* drink_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drink_white.png; sourceTree = "<group>"; };
+		61899D981C156A6E002DE810 /* favorite_icon_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = favorite_icon_white.png; sourceTree = "<group>"; };
+		61899D9E1C15707D002DE810 /* madera.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = madera.jpg; sourceTree = "<group>"; };
+		61899DA01C1571CA002DE810 /* carbon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = carbon.jpg; sourceTree = "<group>"; };
+		61899DA21C157235002DE810 /* carbon2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = carbon2.jpg; sourceTree = "<group>"; };
+		61899DA41C157383002DE810 /* tronco.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tronco.png; sourceTree = "<group>"; };
+		61899DA61C157424002DE810 /* tronco2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tronco2.jpg; sourceTree = "<group>"; };
+		61899DA81C157492002DE810 /* tronco3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tronco3.png; sourceTree = "<group>"; };
+		61899DAA1C157557002DE810 /* tronco4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tronco4.png; sourceTree = "<group>"; };
+		61899DAC1C157738002DE810 /* cedro.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cedro.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A1F2ACA1BEFEC9A00B88729 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A1F2AC41BEFEC9A00B88729 = {
+			isa = PBXGroup;
+			children = (
+				4A1F2ACF1BEFEC9A00B88729 /* Suprema Salsa */,
+				4A1F2ACE1BEFEC9A00B88729 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4A1F2ACE1BEFEC9A00B88729 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A1F2ACD1BEFEC9A00B88729 /* Suprema Salsa.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A1F2ACF1BEFEC9A00B88729 /* Suprema Salsa */ = {
+			isa = PBXGroup;
+			children = (
+				6165A0F11BF00D2700D818A9 /* Otros */,
+				6165A0EC1BF0094000D818A9 /* OtrasClases */,
+				6165A0EB1BF0092F00D818A9 /* Principal_Compras */,
+				6165A0D81BEFEF1000D818A9 /* SlideOutMenu */,
+				4A1F2AD01BEFEC9A00B88729 /* AppDelegate.swift */,
+				4A1F2AD41BEFEC9A00B88729 /* Main.storyboard */,
+				61899D941C156A6E002DE810 /* arrow_carrito_white.png */,
+				61899D951C156A6E002DE810 /* bookmark_white.png */,
+				61899D961C156A6E002DE810 /* cheese_icon_white.png */,
+				61899D971C156A6E002DE810 /* drink_white.png */,
+				61899D981C156A6E002DE810 /* favorite_icon_white.png */,
+				61899D9E1C15707D002DE810 /* madera.jpg */,
+				61899DA01C1571CA002DE810 /* carbon.jpg */,
+				61899DA21C157235002DE810 /* carbon2.jpg */,
+				61899DA41C157383002DE810 /* tronco.png */,
+				61899DA61C157424002DE810 /* tronco2.jpg */,
+				61899DA81C157492002DE810 /* tronco3.png */,
+				61899DAA1C157557002DE810 /* tronco4.png */,
+				61899DAC1C157738002DE810 /* cedro.jpg */,
+			);
+			path = "Suprema Salsa";
+			sourceTree = "<group>";
+		};
+		6165A0D81BEFEF1000D818A9 /* SlideOutMenu */ = {
+			isa = PBXGroup;
+			children = (
+				6165A0DC1BEFEF3600D818A9 /* SWRevealViewController.h */,
+				6165A0DD1BEFEF3600D818A9 /* SWRevealViewController.m */,
+				6165A0DB1BEFEF3500D818A9 /* Suprema Salsa-Bridging-Header.h */,
+			);
+			name = SlideOutMenu;
+			sourceTree = "<group>";
+		};
+		6165A0EB1BF0092F00D818A9 /* Principal_Compras */ = {
+			isa = PBXGroup;
+			children = (
+				6165A0E11BEFF6BF00D818A9 /* ComprasViewController.swift */,
+				6165A0ED1BF00B5D00D818A9 /* CartaCollectionViewCell.swift */,
+				61899D481C15582D002DE810 /* CarritoCollectionViewCell.swift */,
+			);
+			name = Principal_Compras;
+			sourceTree = "<group>";
+		};
+		6165A0EC1BF0094000D818A9 /* OtrasClases */ = {
+			isa = PBXGroup;
+			children = (
+				6165A0E31BEFF6D600D818A9 /* CuponesViewController.swift */,
+				6165A0E71BEFF6F700D818A9 /* SettingsViewController.swift */,
+				6165A0E51BEFF6EC00D818A9 /* UbicacionViewController.swift */,
+				6165A0E91BF0086A00D818A9 /* CuentaViewController.swift */,
+			);
+			name = OtrasClases;
+			sourceTree = "<group>";
+		};
+		6165A0F11BF00D2700D818A9 /* Otros */ = {
+			isa = PBXGroup;
+			children = (
+				6165A11A1BF015CC00D818A9 /* aguaHorchata.png */,
+				6165A11B1BF015CC00D818A9 /* aguaJamaica.png */,
+				6165A11C1BF015CC00D818A9 /* aguasimple.png */,
+				6165A11D1BF015CC00D818A9 /* arabeKilo.png */,
+				6165A11E1BF015CC00D818A9 /* arrachera.png */,
+				6165A11F1BF015CC00D818A9 /* burrito.png */,
+				6165A1201BF015CC00D818A9 /* carnepastormenu.png */,
+				6165A1211BF015CC00D818A9 /* cebollitas.png */,
+				6165A1221BF015CC00D818A9 /* chalupas.png */,
+				6165A1231BF015CC00D818A9 /* Chistorra.png */,
+				6165A1241BF015CC00D818A9 /* cincoTacosPastor.png */,
+				6165A1251BF015CC00D818A9 /* cochinita2.png */,
+				6165A1261BF015CC00D818A9 /* costillas.png */,
+				6165A1271BF015CC00D818A9 /* frijoles.png */,
+				6165A1281BF015CC00D818A9 /* gringa.png */,
+				6165A1291BF015CC00D818A9 /* sincronizada.png */,
+				6165A12A1BF015CC00D818A9 /* sirlon.png */,
+				6165A12B1BF015CC00D818A9 /* taco arabe.png */,
+				6165A12C1BF015CC00D818A9 /* tacobistec.png */,
+				6165A12D1BF015CC00D818A9 /* unTacoPastor.png */,
+				4A1F2AD71BEFEC9A00B88729 /* Assets.xcassets */,
+				4A1F2AD91BEFEC9A00B88729 /* LaunchScreen.storyboard */,
+				4A1F2ADC1BEFEC9A00B88729 /* Info.plist */,
+				4A4D431F1BEFFB750021379F /* SideMenu.swift */,
+			);
+			name = Otros;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A1F2ACC1BEFEC9A00B88729 /* Suprema Salsa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A1F2ADF1BEFEC9A00B88729 /* Build configuration list for PBXNativeTarget "Suprema Salsa" */;
+			buildPhases = (
+				4A1F2AC91BEFEC9A00B88729 /* Sources */,
+				4A1F2ACA1BEFEC9A00B88729 /* Frameworks */,
+				4A1F2ACB1BEFEC9A00B88729 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Suprema Salsa";
+			productName = "Suprema Salsa";
+			productReference = 4A1F2ACD1BEFEC9A00B88729 /* Suprema Salsa.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A1F2AC51BEFEC9A00B88729 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "miguel mexicano";
+				TargetAttributes = {
+					4A1F2ACC1BEFEC9A00B88729 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = 4A1F2AC81BEFEC9A00B88729 /* Build configuration list for PBXProject "Suprema Salsa" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4A1F2AC41BEFEC9A00B88729;
+			productRefGroup = 4A1F2ACE1BEFEC9A00B88729 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A1F2ACC1BEFEC9A00B88729 /* Suprema Salsa */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A1F2ACB1BEFEC9A00B88729 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6165A12F1BF015CC00D818A9 /* aguaJamaica.png in Resources */,
+				6165A1351BF015CC00D818A9 /* cebollitas.png in Resources */,
+				61899D9F1C15707D002DE810 /* madera.jpg in Resources */,
+				61899DA31C157235002DE810 /* carbon2.jpg in Resources */,
+				6165A1321BF015CC00D818A9 /* arrachera.png in Resources */,
+				4A1F2ADB1BEFEC9A00B88729 /* LaunchScreen.storyboard in Resources */,
+				4A1F2AD81BEFEC9A00B88729 /* Assets.xcassets in Resources */,
+				6165A1331BF015CC00D818A9 /* burrito.png in Resources */,
+				61899D9D1C156A6E002DE810 /* favorite_icon_white.png in Resources */,
+				61899DAD1C157738002DE810 /* cedro.jpg in Resources */,
+				6165A13B1BF015CC00D818A9 /* frijoles.png in Resources */,
+				61899D9C1C156A6E002DE810 /* drink_white.png in Resources */,
+				6165A1381BF015CC00D818A9 /* cincoTacosPastor.png in Resources */,
+				6165A13E1BF015CC00D818A9 /* sirlon.png in Resources */,
+				6165A1371BF015CC00D818A9 /* Chistorra.png in Resources */,
+				6165A13F1BF015CC00D818A9 /* taco arabe.png in Resources */,
+				6165A1411BF015CC00D818A9 /* unTacoPastor.png in Resources */,
+				61899DA91C157492002DE810 /* tronco3.png in Resources */,
+				6165A1311BF015CC00D818A9 /* arabeKilo.png in Resources */,
+				4A1F2AD61BEFEC9A00B88729 /* Main.storyboard in Resources */,
+				61899DA51C157383002DE810 /* tronco.png in Resources */,
+				6165A1361BF015CC00D818A9 /* chalupas.png in Resources */,
+				61899D9B1C156A6E002DE810 /* cheese_icon_white.png in Resources */,
+				6165A1341BF015CC00D818A9 /* carnepastormenu.png in Resources */,
+				61899D991C156A6E002DE810 /* arrow_carrito_white.png in Resources */,
+				61899D9A1C156A6E002DE810 /* bookmark_white.png in Resources */,
+				6165A12E1BF015CC00D818A9 /* aguaHorchata.png in Resources */,
+				6165A1301BF015CC00D818A9 /* aguasimple.png in Resources */,
+				61899DA71C157424002DE810 /* tronco2.jpg in Resources */,
+				6165A13D1BF015CC00D818A9 /* sincronizada.png in Resources */,
+				6165A13C1BF015CC00D818A9 /* gringa.png in Resources */,
+				6165A13A1BF015CC00D818A9 /* costillas.png in Resources */,
+				6165A1401BF015CC00D818A9 /* tacobistec.png in Resources */,
+				61899DA11C1571CA002DE810 /* carbon.jpg in Resources */,
+				6165A1391BF015CC00D818A9 /* cochinita2.png in Resources */,
+				61899DAB1C157557002DE810 /* tronco4.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A1F2AC91BEFEC9A00B88729 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6165A0EA1BF0086A00D818A9 /* CuentaViewController.swift in Sources */,
+				6165A0E41BEFF6D600D818A9 /* CuponesViewController.swift in Sources */,
+				6165A0E81BEFF6F700D818A9 /* SettingsViewController.swift in Sources */,
+				4A4D43201BEFFB750021379F /* SideMenu.swift in Sources */,
+				6165A0E61BEFF6EC00D818A9 /* UbicacionViewController.swift in Sources */,
+				61899D491C15582D002DE810 /* CarritoCollectionViewCell.swift in Sources */,
+				4A1F2AD11BEFEC9A00B88729 /* AppDelegate.swift in Sources */,
+				6165A0E21BEFF6BF00D818A9 /* ComprasViewController.swift in Sources */,
+				6165A0DE1BEFEF3600D818A9 /* SWRevealViewController.m in Sources */,
+				6165A0EE1BF00B5D00D818A9 /* CartaCollectionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4A1F2AD41BEFEC9A00B88729 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A1F2AD51BEFEC9A00B88729 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4A1F2AD91BEFEC9A00B88729 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A1F2ADA1BEFEC9A00B88729 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4A1F2ADD1BEFEC9A00B88729 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4A1F2ADE1BEFEC9A00B88729 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4A1F2AE01BEFEC9A00B88729 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "Suprema Salsa/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "touchandswipe.Suprema-Salsa";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Suprema Salsa/Suprema Salsa-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4A1F2AE11BEFEC9A00B88729 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "Suprema Salsa/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "touchandswipe.Suprema-Salsa";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Suprema Salsa/Suprema Salsa-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A1F2AC81BEFEC9A00B88729 /* Build configuration list for PBXProject "Suprema Salsa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A1F2ADD1BEFEC9A00B88729 /* Debug */,
+				4A1F2ADE1BEFEC9A00B88729 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A1F2ADF1BEFEC9A00B88729 /* Build configuration list for PBXNativeTarget "Suprema Salsa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A1F2AE01BEFEC9A00B88729 /* Debug */,
+				4A1F2AE11BEFEC9A00B88729 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A1F2AC51BEFEC9A00B88729 /* Project object */;
+}
